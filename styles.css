@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+div {
+  min-height: 100vh;
+  flex: auto;
+  background-color: #72ffc6;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  transition: 0.4s;
+  width: 100%;
+}
+
+div:nth-child(2) {
+  background-color: #70f2fb;
+}
+
+div:nth-child(3) {
+  background-color: #70d8fb;
+}
+
+div:nth-child(4) {
+  background-color: #70bbfb;
+}
+
+div:nth-child(5) {
+  background-color: #31436f;
+}
+
+div:hover {
+  background-color: black;
+  color: #fff;
+  width: 500%;
+}
+
+h1 {
+  transition: 2s;
+}
+
+div:hover h1 {
+  transform: rotate(20turn);
+}
